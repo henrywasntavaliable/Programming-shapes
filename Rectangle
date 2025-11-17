@@ -1,0 +1,24 @@
+"""# Exercise 2a: Rectangle Boundaries
+# -------------------------------
+Write a function called `rectangle_boundaries` that:
+- Asks the user for the x and y coordinates of the top-left corner of a rectangle.
+- Assume a fixed width and height of 100.
+- Prints the range of x values and the range of y values covered by the rectangle.
+
+Solution Example:
+Enter the x coordinate of the top-left corner: 50
+Enter the y coordinate of the top-left corner: 50
+X range: 50 to 150
+Y range: 50 to 150
+
+"""
+def rectanglethingy():
+    width = 100
+    height = 100
+    x_topleft = float(input("Please enter X of top left of shape"))
+    y_topleft = float(input("Please enter Y of top left of shape"))
+    finalx=x_topleft+100
+    finaly=y_topleft+100
+    print(finalx,finaly)
+
+rectanglethingy()

@@ -1,0 +1,25 @@
+"""# -------------------------------
+# Exercise 3a: Circle Circumference
+# -------------------------------
+Write a function called `circle_circumference` that:
+- Asks the user for the x and y coordinates of the center of a circle.
+- Assume a fixed radius of 50.
+- Calculates and prints the circumference of the circle using the formula:  
+  circumference = 2 x π x radius
+
+Solution Example:
+Enter the x coordinate of the center: 100
+Enter the y coordinate of the center: 100
+The circumference is 314.1592653589793
+
+
+"""
+import math
+
+def circle_cum():
+    radius = 50
+    y_coc = float(input("Please enter Y of center of circle"))
+    cum = 2 * math.pi * radius
+    print (cum)
+    
+circle_cum()
